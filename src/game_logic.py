@@ -46,7 +46,7 @@ class Question:
     
 
 class Game:
-    def __init__(self, str: user):
+    def __init__(self, user: str):
         self._current_question = None
         self._user = user
         self._score = 0
@@ -125,3 +125,5 @@ class Game:
         End the game and record the final score.
         """
         pass
+
+question = Question("Test","Description of Test","Answer","That's the answer.")

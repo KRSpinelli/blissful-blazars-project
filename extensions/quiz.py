@@ -28,9 +28,11 @@ from config import DEV_GUILD
 "Highly recommended - we suggest providing proper debug logging"
 from src import logutil
 from src.game import Game
+from src import datautil
 
 "Change this if you'd like - this labels log messages for debug mode"
 logger = logutil.init_logger(os.path.basename(__file__))
+datastore = datautil.leaderboard("main")
 
 VERDICT_EVENT_REGEX_AS_STR = "button_verdict_"
 VERDICT_EVENT_REGEX = re.compile(fr"{VERDICT_EVENT_REGEX_AS_STR}")
@@ -217,6 +219,7 @@ class QuizCog(interactions.Extension):
                 description=f"Final Score: ``{self.get_user_game(ctx.user.id).get_final_score()}``"
             ),
                 ephemeral=True, )
+            datastore.add_score(self.get_user_game(ctx.user.id).get_final_score(), int(ctx.user.id))
             del self.user_games[str(ctx.user.id)]
         else:
             await ctx.respond(embed=
@@ -290,3 +293,23 @@ class QuizCog(interactions.Extension):
             )
         else:
             await self.present_prompt(ctx)
+
+    @interactions.slash_command(
+        "leaderboard", description="Shows the leaderboard", scopes=[DEV_GUILD] if DEV_GUILD else None)
+    async def _show_leaderboard(self, ctx: interactions.SlashContext):
+        """Shows the current leaderboard"""
+        top_scores = datastore.top_scores(10)
+        message = ""
+        converter = interactions.MemberConverter()
+        if top_scores is not None:
+            for score, id in top_scores:
+                user = await converter.convert(ctx, str(id))
+                message += f"{str(user)[1:]}  -  {score}\n"
+            message.strip("\n")
+        else:
+            message = " "
+
+        await ctx.respond(embed=interactions.Embed(
+                title=f"Leaderboard:", color=0x91F35D,
+                description=f"```{message}```"
+            ), ephemeral=False)

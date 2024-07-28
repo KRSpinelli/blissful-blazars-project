@@ -44,7 +44,7 @@ async def on_startup():
 # get all python files in "extensions" folder
 extensions = [
     f"extensions.{f[:-3]}"
-    for f in os.listdir("../template/extensions")
+    for f in os.listdir("./extensions")
     if f.endswith(".py") and not f.startswith("_")
 ]
 for extension in extensions:

@@ -6,7 +6,7 @@ A day on Venus is longer than a year on Venus. | It takes about 243 Earth days f
 
 Octopuses have three hearts. | Two pump blood to the gills, while the third pumps it to the rest of the body. | TRUE | Octopuses indeed have three hearts to manage blood flow efficiently in their aquatic environment.
 
-There’s a species of jellyfish, Turritopsis dohrnii, that can revert to its juvenile form after reaching adulthood, potentially allowing it to bypass death and achieve biological immortality. | This jellyfish's ability to revert to an earlier stage in its life cycle is a unique biological phenomenon. | TRUE | This jellyfish's ability to revert to an earlier stage in its life cycle is a unique biological phenomenon.
+There's a species of jellyfish, Turritopsis dohrnii, that can revert to its juvenile form after reaching adulthood, potentially allowing it to bypass death and achieve biological immortality. | This jellyfish's ability to revert to an earlier stage in its life cycle is a unique biological phenomenon. | TRUE | This jellyfish's ability to revert to an earlier stage in its life cycle is a unique biological phenomenon.
 
 A single strand of spider silk is stronger than steel of the same thickness. | Spider silk's tensile strength is comparable to that of steel when comparing equivalent thicknesses, making this statement accurate. | TRUE | Spider silk's tensile strength is comparable to that of steel when comparing equivalent thicknesses, making this statement accurate.
 

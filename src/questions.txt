@@ -1,4 +1,3 @@
-
 Did you know that honey never spoils? | Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible. | TRUE | The statement is true because honey's low moisture content and acidic pH create an inhospitable environment for bacteria and microorganisms, allowing it to last indefinitely.
 
 Bananas are berries, but strawberries are not. | In botanical terms, a berry is a fruit produced from the ovary of a single flower with seeds embedded in the flesh, which makes bananas true berries and strawberries not. | TRUE | The botanical classification of fruits supports this, as bananas meet the criteria for berries while strawberries do not.
@@ -42,3 +41,25 @@ A blue whale's heart is so large that a human could fit inside its arteries. | T
 There are more microbial cells in your body than human cells. | Microbial cells outnumber human cells in the body, reflecting the diverse and abundant microbial ecosystem within us. | TRUE | Microbial cells outnumber human cells in the body, reflecting the diverse and abundant microbial ecosystem within us.
 
 An octopus has nine brains: one central brain and eight smaller brains, one for each arm. | Octopuses have one central brain and a decentralized nervous system with clusters of neurons in each arm, but not nine separate brains. | MOSTLY_FALSE | Octopuses have one central brain and a decentralized nervous system with clusters of neurons in each arm, but not nine separate brains.
+
+Bottled water is always healthier than tap water? | MOSTLY_FALSE | While bottled water can be a convenient option, tap water in many developed countries is subject to stringent safety regulations and often contains beneficial minerals.
+
+Eating spicy food can cause stomach ulcers? | FALSE | Stomach ulcers are primarily caused by the bacterium Helicobacter pylori and long-term use of NSAIDs, not by spicy food.
+
+You need eight glasses of water a day to stay hydrated? | MOSTLY_FALSE | Hydration needs vary by individual, and many people get adequate hydration from food and other beverages.
+
+Hair and nails continue to grow after death? | FALSE | The appearance of hair and nail growth after death is due to the skin retracting, not actual growth.
+
+Eating chocolate causes acne? | UNPROVEN | The relationship between diet and acne is complex, and while some studies suggest a link, chocolate alone is not conclusively proven to cause acne.
+
+Reading in dim light will damage your eyesight? | FALSE | While reading in dim light can cause eye strain, it does not cause permanent damage to your eyesight.
+
+Touching a toad will give you warts? | FALSE | Warts are caused by human papillomavirus (HPV), not by touching toads or frogs.
+
+Humans swallow eight spiders a year in their sleep? | FALSE | This widely spread myth has no basis in fact; spiders tend to avoid humans.
+
+If you drop a penny from a tall building, it can kill someone? | FALSE | Due to its low terminal velocity, a penny is unlikely to cause serious harm if dropped from a height.
+
+Microwaving food destroys its nutrients? | MOSTLY_FALSE | Microwaving food can preserve nutrients better than some other cooking methods, as it often requires shorter cooking times.
+
+Cracking your knuckles causes arthritis? | FALSE | Studies have shown no connection between knuckle cracking and arthritis.

@@ -42,24 +42,22 @@ There are more microbial cells in your body than human cells. | Microbial cells 
 
 An octopus has nine brains: one central brain and eight smaller brains, one for each arm. | Octopuses have one central brain and a decentralized nervous system with clusters of neurons in each arm, but not nine separate brains. | MOSTLY_FALSE | Octopuses have one central brain and a decentralized nervous system with clusters of neurons in each arm, but not nine separate brains.
 
-Bottled water is always healthier than tap water? | MOSTLY_FALSE | While bottled water can be a convenient option, tap water in many developed countries is subject to stringent safety regulations and often contains beneficial minerals.
+Bottled water is always healthier than tap water? | While bottled water can be a convenient option, tap water in many developed countries is subject to stringent safety regulations and often contains beneficial minerals. | MOSTLY_FALSE | While bottled water can be a convenient option, tap water in many developed countries is subject to stringent safety regulations and often contains beneficial minerals.
 
-Eating spicy food can cause stomach ulcers? | FALSE | Stomach ulcers are primarily caused by the bacterium Helicobacter pylori and long-term use of NSAIDs, not by spicy food.
+Eating spicy food can cause stomach ulcers? | Stomach ulcers are primarily caused by the bacterium Helicobacter pylori and long-term use of NSAIDs, not by spicy food. | FALSE | Stomach ulcers are primarily caused by the bacterium Helicobacter pylori and long-term use of NSAIDs, not by spicy food.
 
-You need eight glasses of water a day to stay hydrated? | MOSTLY_FALSE | Hydration needs vary by individual, and many people get adequate hydration from food and other beverages.
+You need eight glasses of water a day to stay hydrated? | Hydration needs vary by individual, and many people get adequate hydration from food and other beverages. | MOSTLY_FALSE | Hydration needs vary by individual, and many people get adequate hydration from food and other beverages.
 
-Hair and nails continue to grow after death? | FALSE | The appearance of hair and nail growth after death is due to the skin retracting, not actual growth.
+Hair and nails continue to grow after death? | The appearance of hair and nail growth after death is due to the skin retracting, not actual growth. | FALSE | The appearance of hair and nail growth after death is due to the skin retracting, not actual growth.
 
-Eating chocolate causes acne? | UNPROVEN | The relationship between diet and acne is complex, and while some studies suggest a link, chocolate alone is not conclusively proven to cause acne.
+Reading in dim light will damage your eyesight? | While reading in dim light can cause eye strain, it does not cause permanent damage to your eyesight. | FALSE | While reading in dim light can cause eye strain, it does not cause permanent damage to your eyesight.
 
-Reading in dim light will damage your eyesight? | FALSE | While reading in dim light can cause eye strain, it does not cause permanent damage to your eyesight.
+Touching a toad will give you warts? | Warts are caused by human papillomavirus (HPV), not by touching toads or frogs. | FALSE | Warts are caused by human papillomavirus (HPV), not by touching toads or frogs.
 
-Touching a toad will give you warts? | FALSE | Warts are caused by human papillomavirus (HPV), not by touching toads or frogs.
+Humans swallow eight spiders a year in their sleep? | This widely spread myth has no basis in fact; spiders tend to avoid humans. | FALSE | This widely spread myth has no basis in fact; spiders tend to avoid humans.
 
-Humans swallow eight spiders a year in their sleep? | FALSE | This widely spread myth has no basis in fact; spiders tend to avoid humans.
+If you drop a penny from a tall building, it can kill someone? | Due to its low terminal velocity, a penny is unlikely to cause serious harm if dropped from a height. | FALSE | Due to its low terminal velocity, a penny is unlikely to cause serious harm if dropped from a height.
 
-If you drop a penny from a tall building, it can kill someone? | FALSE | Due to its low terminal velocity, a penny is unlikely to cause serious harm if dropped from a height.
+Microwaving food destroys its nutrients? | Microwaving food can preserve nutrients better than some other cooking methods, as it often requires shorter cooking times. | MOSTLY_FALSE | Microwaving food can preserve nutrients better than some other cooking methods, as it often requires shorter cooking times.
 
-Microwaving food destroys its nutrients? | MOSTLY_FALSE | Microwaving food can preserve nutrients better than some other cooking methods, as it often requires shorter cooking times.
-
-Cracking your knuckles causes arthritis? | FALSE | Studies have shown no connection between knuckle cracking and arthritis.
+Cracking your knuckles causes arthritis? | Studies have shown no connection between knuckle cracking and arthritis. | FALSE | Studies have shown no connection between knuckle cracking and arthritis.

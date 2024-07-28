@@ -1,0 +1,44 @@
+
+Did you know that honey never spoils? | Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible. | TRUE | The statement is true because honey's low moisture content and acidic pH create an inhospitable environment for bacteria and microorganisms, allowing it to last indefinitely.
+
+Bananas are berries, but strawberries are not. | In botanical terms, a berry is a fruit produced from the ovary of a single flower with seeds embedded in the flesh, which makes bananas true berries and strawberries not. | TRUE | The botanical classification of fruits supports this, as bananas meet the criteria for berries while strawberries do not.
+
+A day on Venus is longer than a year on Venus. | It takes about 243 Earth days for Venus to complete one rotation on its axis, but only about 225 Earth days to orbit the Sun. | TRUE | Venus's slow rotation compared to its orbit around the Sun makes this statement accurate.
+
+Octopuses have three hearts. | Two pump blood to the gills, while the third pumps it to the rest of the body. | TRUE | Octopuses indeed have three hearts to manage blood flow efficiently in their aquatic environment.
+
+There’s a species of jellyfish, Turritopsis dohrnii, that can revert to its juvenile form after reaching adulthood, potentially allowing it to bypass death and achieve biological immortality. | This jellyfish's ability to revert to an earlier stage in its life cycle is a unique biological phenomenon. | TRUE | This jellyfish's ability to revert to an earlier stage in its life cycle is a unique biological phenomenon.
+
+A single strand of spider silk is stronger than steel of the same thickness. | Spider silk's tensile strength is comparable to that of steel when comparing equivalent thicknesses, making this statement accurate. | TRUE | Spider silk's tensile strength is comparable to that of steel when comparing equivalent thicknesses, making this statement accurate.
+
+Sharks have been around longer than trees; they first appeared about 400 million years ago, while the earliest trees appeared around 350 million years ago. | Fossil evidence supports that sharks predate trees, making this statement correct. | TRUE | Fossil evidence supports that sharks predate trees, making this statement correct.
+
+There are more stars in the observable universe than grains of sand on all the Earth's beaches. | Estimates suggest there are indeed more stars than grains of sand, highlighting the vastness of the universe. | TRUE | Estimates suggest there are indeed more stars than grains of sand, highlighting the vastness of the universe.
+
+Cleopatra lived closer in time to the Moon landing than to the construction of the Great Pyramid of Giza. | Cleopatra's reign occurred closer to the 20th century Moon landing than to the Pyramid's construction, based on historical timelines. | TRUE | Cleopatra's reign occurred closer to the 20th century Moon landing than to the Pyramid's construction, based on historical timelines.
+
+Venus rotates in the opposite direction to most planets in our solar system, meaning the Sun rises in the west and sets in the east on Venus. | Venus's retrograde rotation results in the Sun rising in the west and setting in the east, confirming the statement. | TRUE | Venus's retrograde rotation results in the Sun rising in the west and setting in the east, confirming the statement.
+
+Hot water freezes faster than cold water under certain conditions, a phenomenon known as the Mpemba effect. | Although not fully understood, the Mpemba effect has been documented in scientific observations. | TRUE | Although not fully understood, the Mpemba effect has been documented in scientific observations.
+
+A group of flamingos is called a "flamboyance." | The term "flamboyance" is indeed used to describe a group of flamingos. | TRUE | The term "flamboyance" is indeed used to describe a group of flamingos.
+
+Humans share about 60% of their DNA with bananas. | The correct figure is closer to 50%, as the actual percentage of shared DNA is often misrepresented. | FALSE | The correct figure is closer to 50%, as the actual percentage of shared DNA is often misrepresented.
+
+There are more possible iterations of a game of chess than there are atoms in the known universe. | The number of possible chess games far exceeds the number of atoms in the observable universe, highlighting the game's complexity. | TRUE | The number of possible chess games far exceeds the number of atoms in the observable universe, highlighting the game's complexity.
+
+The shortest war in history was between Britain and Zanzibar on August 27, 1896; it lasted just 38 minutes. | Historical records confirm this brief conflict, making the statement accurate. | TRUE | Historical records confirm this brief conflict, making the statement accurate.
+
+Wombat feces are cube-shaped, which helps prevent them from rolling away and marks their territory more effectively. | Wombat feces do indeed have a cubic shape, which serves the purpose described. | TRUE | Wombat feces do indeed have a cubic shape, which serves the purpose described.
+
+Honeybees can recognize human faces. | Research has shown that honeybees can indeed recognize human faces, employing a similar recognition mechanism. | TRUE | Research has shown that honeybees can indeed recognize human faces, employing a similar recognition mechanism.
+
+The Eiffel Tower can be 15 cm taller during the summer due to the expansion of iron in the heat. | Thermal expansion causes the Eiffel Tower to grow slightly in the summer, supporting the statement. | TRUE | Thermal expansion causes the Eiffel Tower to grow slightly in the summer, supporting the statement.
+
+A day on Saturn lasts just about 10 hours and 33 minutes, making it the shortest day of any planet in our solar system. | The shortest day in the solar system belongs to Jupiter, not Saturn, as Jupiter has a rotation period of approximately 9 hours and 55 minutes. | FALSE | The shortest day in the solar system belongs to Jupiter, not Saturn, as Jupiter has a rotation period of approximately 9 hours and 55 minutes.
+
+A blue whale's heart is so large that a human could fit inside its arteries. | The enormous size of a blue whale's heart and its arteries allows for such an extraordinary comparison. | TRUE | The enormous size of a blue whale's heart and its arteries allows for such an extraordinary comparison.
+
+There are more microbial cells in your body than human cells. | Microbial cells outnumber human cells in the body, reflecting the diverse and abundant microbial ecosystem within us. | TRUE | Microbial cells outnumber human cells in the body, reflecting the diverse and abundant microbial ecosystem within us.
+
+An octopus has nine brains: one central brain and eight smaller brains, one for each arm. | Octopuses have one central brain and a decentralized nervous system with clusters of neurons in each arm, but not nine separate brains. | MOSTLY_FALSE | Octopuses have one central brain and a decentralized nervous system with clusters of neurons in each arm, but not nine separate brains.

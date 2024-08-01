@@ -1,4 +1,3 @@
-
 Did you know that honey never spoils? | Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible. | TRUE | The statement is true because honey's low moisture content and acidic pH create an inhospitable environment for bacteria and microorganisms, allowing it to last indefinitely.
 
 Bananas are berries, but strawberries are not. | In botanical terms, a berry is a fruit produced from the ovary of a single flower with seeds embedded in the flesh, which makes bananas true berries and strawberries not. | TRUE | The botanical classification of fruits supports this, as bananas meet the criteria for berries while strawberries do not.
@@ -7,7 +6,7 @@ A day on Venus is longer than a year on Venus. | It takes about 243 Earth days f
 
 Octopuses have three hearts. | Two pump blood to the gills, while the third pumps it to the rest of the body. | TRUE | Octopuses indeed have three hearts to manage blood flow efficiently in their aquatic environment.
 
-There’s a species of jellyfish, Turritopsis dohrnii, that can revert to its juvenile form after reaching adulthood, potentially allowing it to bypass death and achieve biological immortality. | This jellyfish's ability to revert to an earlier stage in its life cycle is a unique biological phenomenon. | TRUE | This jellyfish's ability to revert to an earlier stage in its life cycle is a unique biological phenomenon.
+There's a species of jellyfish, Turritopsis dohrnii, that can revert to its juvenile form after reaching adulthood, potentially allowing it to bypass death and achieve biological immortality. | This jellyfish's ability to revert to an earlier stage in its life cycle is a unique biological phenomenon. | TRUE | This jellyfish's ability to revert to an earlier stage in its life cycle is a unique biological phenomenon.
 
 A single strand of spider silk is stronger than steel of the same thickness. | Spider silk's tensile strength is comparable to that of steel when comparing equivalent thicknesses, making this statement accurate. | TRUE | Spider silk's tensile strength is comparable to that of steel when comparing equivalent thicknesses, making this statement accurate.
 
@@ -42,3 +41,72 @@ A blue whale's heart is so large that a human could fit inside its arteries. | T
 There are more microbial cells in your body than human cells. | Microbial cells outnumber human cells in the body, reflecting the diverse and abundant microbial ecosystem within us. | TRUE | Microbial cells outnumber human cells in the body, reflecting the diverse and abundant microbial ecosystem within us.
 
 An octopus has nine brains: one central brain and eight smaller brains, one for each arm. | Octopuses have one central brain and a decentralized nervous system with clusters of neurons in each arm, but not nine separate brains. | MOSTLY_FALSE | Octopuses have one central brain and a decentralized nervous system with clusters of neurons in each arm, but not nine separate brains.
+
+Bottled water is always healthier than tap water? | While bottled water can be a convenient option, tap water in many developed countries is subject to stringent safety regulations and often contains beneficial minerals. | MOSTLY_FALSE | While bottled water can be a convenient option, tap water in many developed countries is subject to stringent safety regulations and often contains beneficial minerals.
+
+Eating spicy food can cause stomach ulcers? | Stomach ulcers are primarily caused by the bacterium Helicobacter pylori and long-term use of NSAIDs, not by spicy food. | FALSE | Stomach ulcers are primarily caused by the bacterium Helicobacter pylori and long-term use of NSAIDs, not by spicy food.
+
+You need eight glasses of water a day to stay hydrated? | Hydration needs vary by individual, and many people get adequate hydration from food and other beverages. | MOSTLY_FALSE | Hydration needs vary by individual, and many people get adequate hydration from food and other beverages.
+
+Hair and nails continue to grow after death? | The appearance of hair and nail growth after death is due to the skin retracting, not actual growth. | FALSE | The appearance of hair and nail growth after death is due to the skin retracting, not actual growth.
+
+Reading in dim light will damage your eyesight? | While reading in dim light can cause eye strain, it does not cause permanent damage to your eyesight. | FALSE | While reading in dim light can cause eye strain, it does not cause permanent damage to your eyesight.
+
+Touching a toad will give you warts? | Warts are caused by human papillomavirus (HPV), not by touching toads or frogs. | FALSE | Warts are caused by human papillomavirus (HPV), not by touching toads or frogs.
+
+Humans swallow eight spiders a year in their sleep? | This widely spread myth has no basis in fact; spiders tend to avoid humans. | FALSE | This widely spread myth has no basis in fact; spiders tend to avoid humans.
+
+If you drop a penny from a tall building, it can kill someone? | Due to its low terminal velocity, a penny is unlikely to cause serious harm if dropped from a height. | FALSE | Due to its low terminal velocity, a penny is unlikely to cause serious harm if dropped from a height.
+
+Microwaving food destroys its nutrients? | Microwaving food can preserve nutrients better than some other cooking methods, as it often requires shorter cooking times. | MOSTLY_FALSE | Microwaving food can preserve nutrients better than some other cooking methods, as it often requires shorter cooking times.
+
+Cracking your knuckles causes arthritis? | Studies have shown no connection between knuckle cracking and arthritis. | FALSE | Studies have shown no connection between knuckle cracking and arthritis.
+
+Lightning never strikes the same place twice. | This popular saying implies that lightning will not hit the same spot again. | FALSE | Lightning can and often does strike the same place multiple times, especially tall and isolated structures.
+
+Goldfish have a memory span of only three seconds. | The belief that goldfish cannot remember anything beyond three seconds is widespread. | FALSE | Research has demonstrated that goldfish can remember things for months.
+
+Mount Everest is the tallest mountain in the world. | At 8,848 meters, Mount Everest is known as the highest peak. | TRUE | Everest is the highest point above sea level on Earth.
+
+If you touch a baby bird, its mother will abandon it. | The myth suggests that human scent on a baby bird will cause rejection by its mother. | FALSE | Most birds have a limited sense of smell and will not abandon their chicks if touched by humans.
+
+Dogs sweat by salivating. | Some believe that dogs release sweat through their saliva. | FALSE | Dogs primarily sweat through their paw pads, not through salivating.
+
+Bulls become angry when they see the color red. | It is often depicted that bulls charge at the sight of red. | FALSE | Bulls are colorblind to red; they charge at the movement of the matador's cape, not the color.
+
+Shaving hair makes it grow back thicker and darker. | The belief is that shaving alters hair growth characteristics. | FALSE | Shaving does not change the thickness, color, or rate of hair growth; it may appear thicker due to the blunt tip.
+
+Bananas grow on trees. | Many think bananas are grown on trees. | FALSE | Bananas grow on large herbaceous plants, not trees.
+
+Eating carrots will improve your night vision. | The myth suggests that consuming carrots enhances night vision. | MOSTLY_FALSE | While carrots contain vitamin A, which is essential for eye health, they do not significantly improve night vision in a noticeable way.
+
+A penny dropped from the Empire State Building can kill a person. | It is believed that a falling penny from a great height can be lethal. | FALSE | Due to air resistance, a penny cannot reach a high enough speed to be lethal.
+
+Swallowed gum takes seven years to digest. | The myth claims that swallowed gum stays in the digestive system for seven years. | FALSE | Gum passes through the digestive system relatively unchanged and is excreted like other food.
+
+Houseflies live for only 24 hours. | Many believe that houseflies have a lifespan of just one day. | FALSE | Houseflies typically live for around 20-30 days, not 24 hours.
+
+Humans only use 10% of their brains. | The popular myth suggests we use a small fraction of our brain capacity. | FALSE | Neuroimaging shows that virtually all parts of the brain have some function.
+
+A duck's quack doesn't echo. | There is a claim that duck quacks do not produce echoes. | FALSE | Duck quacks do produce echoes; this myth has been debunked by acoustic studies.
+
+Bats are blind. | Many believe that bats cannot see. | FALSE | Bats have good eyesight, particularly at night, and use echolocation to navigate in the dark.
+
+Humans lose most of their body heat through their heads. | The belief is that the head is the primary source of heat loss. | MOSTLY_FALSE | While the head can lose heat, the rate is proportional to its surface area, similar to other body parts.
+
+Goldfish grow to the size of their tank. | The myth suggests that goldfish will grow only as large as their tank allows. | MOSTLY_FALSE | While tank size can affect growth, genetics and overall care play significant roles in a goldfish's size.
+
+Eating turkey makes you sleepy. | The claim is that consuming turkey induces drowsiness due to tryptophan. | MOSTLY_FALSE | While turkey contains tryptophan, the amount is not enough to cause significant drowsiness; other factors like overall meal size contribute more to post-meal sleepiness.
+
+You should wait an hour after eating before swimming. | The myth suggests that eating before swimming is dangerous. | FALSE | There is no evidence to support that eating before swimming is dangerous for healthy individuals.
+
+Alcohol warms you up. | The belief is that alcohol increases body temperature. | FALSE | Alcohol can actually lower the body's core temperature, leading to hypothermia.
+
+You should drink eight glasses of water a day. | The recommendation to drink eight glasses of water is widely known. | FALSE | The amount of water needed varies by individual and activity level; not everyone needs exactly eight glasses a day.
+
+Dogs see in black and white. | It is believed that dogs have no color vision. | FALSE | Dogs can see some colors, particularly blues and yellows, but not the full spectrum as humans do.
+
+Sugar makes kids hyperactive. | The belief is that sugar causes hyperactivity in children. | FALSE | Studies have not consistently shown a link between sugar consumption and hyperactivity in children.
+
+You can catch a cold from being cold. | It is thought that cold weather directly causes colds. | FALSE | Colds are caused by viruses, not by cold weather itself.
+

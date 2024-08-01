@@ -28,9 +28,11 @@ from config import DEV_GUILD
 "Highly recommended - we suggest providing proper debug logging"
 from src import logutil
 from src.game import Game
+from src import datautil
 
 "Change this if you'd like - this labels log messages for debug mode"
 logger = logutil.init_logger(os.path.basename(__file__))
+datastore = datautil.leaderboard("main")
 
 VERDICT_EVENT_REGEX_AS_STR = "button_verdict_"
 VERDICT_EVENT_REGEX = re.compile(fr"{VERDICT_EVENT_REGEX_AS_STR}")
@@ -217,6 +219,7 @@ class QuizCog(interactions.Extension):
                 description=f"Final Score: ``{self.get_user_game(ctx.user.id).get_final_score()}``"
             ),
                 ephemeral=True, )
+            datastore.add_score(self.get_user_game(ctx.user.id).get_final_score(), int(ctx.user.id))
             del self.user_games[str(ctx.user.id)]
         else:
             await ctx.respond(embed=
@@ -234,35 +237,45 @@ class QuizCog(interactions.Extension):
                 users_game = self.get_user_game(ctx.user.id)
                 users_game.attempt_answer(str(ctx.custom_id).replace(VERDICT_EVENT_REGEX_AS_STR, "").upper())
 
-                if users_game.get_difference() == 0:
+                if users_game.get_difference() != 0:
+                    heading = "Incorrect!"
+                    side_colour = 0xE63D3D
+                    lasting_time = 10
+                    components = END_GAME
+                else:
+                    heading = "Correct!"
+                    side_colour = 0x91F35D
+                    lasting_time = 60
+                    components = None
 
-                    descriptor = users_game.get_question().get_description()
-                    allow_new_round = users_game.start_new_round()
+                descriptor = users_game.get_question().get_description().strip('\n')
+                allow_new_round = users_game.start_new_round()
+
+                if allow_new_round:
+                    message = "Beginning Next Round!"
+                    final_score = -1
+                    final_score_str = ""
+                else:
                     final_score = self.get_user_game(ctx.user.id).get_final_score()
                     final_score_str = f" Final Score: ``{final_score}``"
-                    await ctx.edit_origin(components=VERDICT_BUTTONS_DISABLED)
-                    await ctx.respond(
-                        embed=interactions.Embed(
-                            title="Correct!", color=0x91F35D,
-                            description=f"*{descriptor[1::]}* \n\n{"Beginning Next Round!" if allow_new_round else f"Game Over!\n{final_score_str}"}"
-                        ),
-                        ephemeral=True, delete_after=60 if final_score == -1 else None
-                    )
-                    if final_score == -1:
-                        await self.present_prompt(ctx)
-                        del final_score, final_score_str
-                    else:
-                        del final_score, final_score_str
-                        await self.exit(ctx, ended_by="Internal Service")
+                    message = f"Game Over!\n{final_score_str}"
+                    if (final_score > 0):
+                        datastore.add_score(final_score, int(ctx.user.id))
+
+                await ctx.edit_origin(components=VERDICT_BUTTONS_DISABLED)
+                await ctx.respond(
+                    embed=interactions.Embed(
+                        title = heading, color = side_colour,
+                        description=f"*{descriptor[1::]}* \n\n{message}"
+                    ),
+                    ephemeral=True,components=components,delete_after=lasting_time if final_score == -1 else None
+                )
+                if final_score == -1:
+                    await self.present_prompt(ctx)
+                    del final_score, final_score_str
                 else:
-                    await ctx.respond(
-                        embed=interactions.Embed(
-                            title="Incorrect! Try again!", color=0xE63D3D,
-                        ),
-                        ephemeral=True,
-                        delete_after=10,
-                        components=END_GAME
-                    )
+                    del final_score, final_score_str
+                    await self.exit(ctx, ended_by="Internal Service")
             else:
                 await ctx.respond(embed=
                 interactions.Embed(
@@ -290,3 +303,23 @@ class QuizCog(interactions.Extension):
             )
         else:
             await self.present_prompt(ctx)
+
+    @interactions.slash_command(
+        "leaderboard", description="Shows the leaderboard", scopes=[DEV_GUILD] if DEV_GUILD else None)
+    async def _show_leaderboard(self, ctx: interactions.SlashContext):
+        """Shows the current leaderboard"""
+        top_scores = datastore.top_scores(10)
+        message = ""
+        converter = interactions.MemberConverter()
+        if top_scores is not None:
+            for score, id in top_scores:
+                user = await converter.convert(ctx, str(id))
+                message += f"{str(user)[1:]}  -  {score}\n"
+            message.strip("\n")
+        else:
+            message = " "
+
+        await ctx.respond(embed=interactions.Embed(
+                title=f"Leaderboard:", color=0x91F35D,
+                description=f"```{message}```"
+            ), ephemeral=False)

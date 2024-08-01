@@ -40,27 +40,3 @@ Commands:
 
 
 
-### Credits
-
-<center>
-<li>
-<b>CH4RM</b>,<br>
-<i>Team Captain,<br>Game Class Writer</i>
-</li>
-<li>
-<b>Dial</b>,<br>
-<i>Documentation Author,<br>Bot Developer,<br>Responsible for Cog Writing</i>
-</li>
-<li>
-<b>Timo</b>,<br>
-<i>Leaderboard Author,<br>Question Writer</i>
-</li>
-<li>
-<b>e-Kreten</b>,<br>
-<i>Question Backend Author,<br>Question Author.</i>
-</li>
-<li>
-<b>Zike</b>,<br>
-<i>Team Member</i>
-</li>
-</center>
